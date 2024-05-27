@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+Module fournissant une fonction pour convertir les attributs d'un objet en un dictionnaire.
+"""
 
 def class_to_json(obj):
     """
@@ -6,15 +9,10 @@ def class_to_json(obj):
     sérialisé en JSON.
 
     Args:
-        obj: L'objet dont on veut obtenir le dictionnaire de l'attribut.
+        obj: L'objet dont on veut obtenir le dictionnaire des attributs.
 
     Returns:
         dict: Un dictionnaire contenant tous les attributs de l'objet `obj`.
     """
-    
-    # Utilise la fonction `vars` pour obtenir le dictionnaire __dict__ de l'objet `obj`.
-    # __dict__ est un attribut spécial qui contient tous les attributs de l'objet sous forme de dictionnaire.
     json_obj = vars(obj)
-    
-    # Retourne le dictionnaire obtenu
     return json_obj
