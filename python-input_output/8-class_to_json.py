@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 """
-Module fournissant une fonction pour convertir les attributs d'un objet en un dictionnaire.
+Module fournissant une fonction pour convertir les attributs d'un obj en un dic
 """
+
 
 def class_to_json(obj):
     """
