@@ -33,6 +33,6 @@ class Student:
         d'une instance de Student.
 
         Returns:
-            dict: La représentation sous forme de dictionnaire de l'instance Student.
+            dict: La représentation sous forme de dictionnaire Student.
         """
         return self.__dict__
