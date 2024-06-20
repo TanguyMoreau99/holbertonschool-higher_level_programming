@@ -59,5 +59,3 @@ $ sudo pip3 install SQLAlchemy
 | `14-model_city_fetch_by_state.py` | Fetches cities by state |
 | `model_city.py` | Model for the City class |
 
-<br><br>
-Copyright (c) 2024 - Clément DEFER
